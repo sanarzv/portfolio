@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b0f19">
+<meta name="description" content="Lal Qila brand refresh by Sana Rizvi: menus, loyalty cards, print and packaging for a heritage restaurant.">
+<title>Lal Qila: Brand refresh | Sana Rizvi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0b0f19;--panel:#111827;--blue:#3356ef;--gold:#ffb344;--white:#f4f4f7;--muted:#acb5c8;--line:rgba(255,255,255,.14);--serif:"Instrument Serif",Georgia,serif;--sans:"DM Sans",Arial,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:85px}
+body{margin:0;background:var(--navy);color:var(--white);font-family:var(--sans);line-height:1.65}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+figure{margin:0}
+a:focus-visible{outline:3px solid var(--gold);outline-offset:5px}
+::selection{background:var(--gold);color:var(--navy)}
+.container{width:min(1180px,calc(100% - 64px));margin-inline:auto}
+.eyebrow{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.star{color:var(--gold)}
+header{position:sticky;top:0;z-index:50;background:rgba(11,15,25,.93);border-bottom:1px solid var(--line);backdrop-filter:blur(15px)}
+.header-inner{height:70px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+.brand img{height:34px;width:auto}
+nav{display:flex;gap:30px;font-size:13px;color:var(--muted)}
+nav a:hover{color:var(--white)}
+.ph{display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;background:repeating-linear-gradient(135deg,#142033 0 14px,#17263b 14px 28px);border:1px dashed rgba(255,255,255,.22);border-radius:5px;color:var(--muted);font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+.hero img{width:100%;aspect-ratio:2/1;min-height:300px;max-height:760px;object-fit:cover;object-position:50% 40%}
+.img{overflow:hidden;border:1px solid rgba(255,255,255,.08);border-radius:5px;background:#182333}
+.img img{width:100%;height:auto}
+.pair .img img{aspect-ratio:1.2/1;object-fit:cover}
+.audience .img img{aspect-ratio:1/1;object-fit:cover}
+.intro{background:#fff;color:var(--navy);padding:58px 0 64px}
+.intro .eyebrow{color:#a36513}
+h1{margin:12px 0 0;font:400 clamp(46px,6.4vw,96px)/.98 var(--serif);letter-spacing:-.03em;text-transform:uppercase}
+.subtitle{margin:14px 0 0;color:#727987;font:400 clamp(22px,2.6vw,34px)/1.15 var(--serif)}
+.intro-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;margin-top:46px}
+.facts{margin:0;display:grid;align-content:start;gap:17px}
+.fact{display:grid;grid-template-columns:90px 1fr;gap:20px}
+.fact dt{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:#636c7d}
+.fact dd{margin:0;font-size:13px;color:#4f5766}
+.intro-copy{padding-left:55px;border-left:1px solid #dce0e6}
+.intro-copy p{margin:0;max-width:520px;color:#4f5766;font-size:15px;line-height:1.85}
+.showcase{padding:20px 0 0}
+.block{padding:56px 0 0}
+.section-heading{display:grid;grid-template-columns:1.1fr .9fr;align-items:end;gap:70px;margin-bottom:32px}
+.section-heading .eyebrow{color:var(--gold);margin-bottom:14px}
+.section-heading h2{margin:0;font:400 clamp(38px,4.6vw,62px)/1.02 var(--serif);letter-spacing:-.02em;text-transform:uppercase}
+.section-heading p{margin:0 0 4px;max-width:430px;color:var(--muted);font-size:14px;line-height:1.85}
+.gallery{display:grid;gap:18px}
+.wide .ph{aspect-ratio:2.25/1}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.pair .ph{aspect-ratio:1.45/1}
+.audiences{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.audience .ph{aspect-ratio:1.1/1}
+.audience h3{margin:18px 0 6px;font:400 30px/1.1 var(--serif);text-transform:uppercase}
+.audience .eyebrow{color:var(--gold);font-size:10px}
+.audience p{margin:0;color:var(--muted);font-size:13px;line-height:1.8}
+.next{margin-top:56px;border-top:1px solid var(--line)}
+.next a{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:32px 0 38px}
+.next .eyebrow{display:block;margin-bottom:7px;color:var(--gold);font-size:10px}
+.next-title{font:400 clamp(35px,4vw,52px)/1 var(--serif);text-transform:uppercase}
+.next-arrow{color:var(--muted);font-size:43px;transition:transform .2s}
+.next a:hover .next-arrow{transform:translateX(8px)}
+.contact{padding:48px 0 35px;background-color:var(--blue);background-image:linear-gradient(#ffffff0c 1px,transparent 1px),linear-gradient(90deg,#ffffff0c 1px,transparent 1px);background-size:45px 45px}
+.contact-inner{display:flex;align-items:center;justify-content:space-between;gap:35px}
+.contact h2{font:400 clamp(36px,4.6vw,61px)/1.06 var(--serif);text-transform:uppercase;margin:0;max-width:720px}
+.btn{border-radius:40px;padding:12px 22px;display:inline-flex;gap:18px;font-size:13px;font-weight:600;background:var(--gold);color:var(--navy);transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px);background:#ffc46b}
+footer{padding:20px 0}
+.footer-inner{display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase}
+@media(max-width:900px){
+.intro-grid{gap:35px}.intro-copy{padding-left:30px}.section-heading{gap:35px}
+.audiences{grid-template-columns:1fr}
+.contact-inner{align-items:flex-start;flex-direction:column}
+}
+@media(max-width:600px){
+.container{width:calc(100% - 36px)}
+.header-inner{height:64px;gap:14px}.brand img{height:28px}nav{gap:15px;font-size:11px}
+.hero img{aspect-ratio:1.3/1;min-height:240px}
+.intro{padding:37px 0 40px}
+.intro-grid{grid-template-columns:1fr;gap:29px;margin-top:33px}
+.fact{grid-template-columns:75px 1fr;gap:15px}
+.intro-copy{border-left:0;border-top:1px solid #dce0e6;padding:25px 0 0}
+.block{padding-top:40px}
+.section-heading{grid-template-columns:1fr;gap:18px;margin-bottom:25px}
+.section-heading h2{font-size:40px}.section-heading p{max-width:none}
+.gallery,.pair{gap:12px}.pair{grid-template-columns:1fr}
+.wide .ph{aspect-ratio:1.35/1}.pair .ph{aspect-ratio:1.3/1}
+.contact{padding:35px 0 28px}
+.footer-inner{font-size:8px;letter-spacing:.07em}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+.hero img{aspect-ratio:2.33/1;object-position:50% 50%}
+.masonry{columns:2;column-gap:18px}
+.masonry figure{break-inside:avoid;margin:0 0 18px}
+.masonry img{width:100%;height:auto;border-radius:5px;border:1px solid rgba(255,255,255,.08);display:block}
+@media(max-width:600px){.masonry{columns:1}.hero img{aspect-ratio:1.5/1}}
+.section-heading.story{grid-template-columns:.9fr 1.1fr;align-items:start}
+.copy p{margin:0 0 16px;max-width:560px;color:var(--muted);font-size:14px;line-height:1.85}
+.masonry.one{columns:1}.masonry.one img{max-height:none}
+@media(max-width:600px){.section-heading.story{grid-template-columns:1fr}}
+</style>
+<style>.hero img{aspect-ratio:2/1;object-position:50% 45%}</style>
+
+</head>
+<body id="top">
+<header>
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="Sana Rizvi, home"><img src="images/header-logo.png" alt="Sana Rizvi"></a>
+    <nav aria-label="Main navigation">
+      <a href="index.html#work">Work</a><a href="index.html#about">About</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" aria-label="Lal Qila key visual"><img src="images/lalqila/header.jpg" alt="Lal Qila logo on a patterned cloth with a teapot and wooden cutlery" fetchpriority="high"></section>
+  <section class="intro" aria-labelledby="project-title"><div class="container">
+    <div class="eyebrow">Brand refresh</div>
+    <h1 id="project-title">Lal Qila</h1>
+    <p class="subtitle">A heritage restaurant brand, refreshed for every touchpoint</p>
+    <div class="intro-grid">
+      <dl class="facts">
+        <div class="fact"><dt>Client</dt><dd>Lal Qila</dd></div>
+        <div class="fact"><dt>Year</dt><dd>2022</dd></div>
+        <div class="fact"><dt>Role</dt><dd>Designer</dd></div>
+        <div class="fact"><dt>Scope</dt><dd>Brand refresh · Menus · Loyalty cards · Print · Packaging</dd></div>
+      </dl>
+      <div class="intro-copy"><p>In 2022 I refreshed the Lal Qila brand across print, packaging and in-restaurant collateral, giving a well-loved restaurant one confident, regal look from the menu to the delivery bag.</p></div>
+    </div></div></section>
+  <section class="showcase"><div class="container">
+    <div class="block"><div class="section-heading story"><div><div class="eyebrow">01 &nbsp; The idea</div><h2>Regal,<br>not heavy.</h2></div><div class="copy"><p>Lal Qila means Red Fort, so the refresh starts from the building itself. Deep crimson, arched shapes and a repeating border pattern give the brand a presence that feels rooted and proud.</p><p>The goal was one look that could sit on a fine dining menu, a pizza box and a delivery rider’s bag without losing its character. The wordmark stays at the centre every time.</p><p>The restaurant was marking 21 years of excellence, so the refresh needed to honour that history while feeling fresh for a new generation of guests.</p></div></div><div class="masonry"><figure><img src="images/lalqila/shield.jpg" alt="Acrylic award shield celebrating 21 years of excellence for Lal Qila" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/crown.jpg" alt="Child wearing a crimson crown in the Lal Qila style" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/business-card.jpg" alt="Lal Qila catering business cards front and back" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/signage.jpg" alt="Lal Qila Don’t Waste Food wall sign in crimson and white" loading="lazy" decoding="async"></figure></div></div>
+    <div class="block"><div class="section-heading"><div><div class="eyebrow">02 &nbsp; Menus and print</div><h2>Menus that feel<br>like an invitation.</h2></div><p>Menus, brochures and in-restaurant print designed as one family, from the main menu to the cocktail list and buffet tags.</p></div><div class="masonry"><figure><img src="images/lalqila/menu.jpg" alt="Lal Qila folded menu with food photography" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/profile.jpg" alt="Lal Qila company profile brochure open and closed" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/cocktail-menu.jpg" alt="Strawberry Delight cocktail menu hanging on a wooden stand" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/buffet-tag.jpg" alt="Buffet tag for Aloo Ki Bhujia held up at the buffet" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/bell.jpg" alt="Lal Qila service bell with Urdu call to the guest" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/folder.jpg" alt="Lal Qila kraft presentation folder with logo" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/catering-card.jpg" alt="Lal Qila catering service cards" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/certificate.jpg" alt="Lal Qila certificate with seal on a dark frame" loading="lazy" decoding="async"></figure></div></div>
+    <div class="block"><div class="section-heading"><div><div class="eyebrow">03 &nbsp; Loyalty and access</div><h2>Cards with<br>a sense of status.</h2></div><p>Tiered membership cards, gate passes and vouchers that make guests feel recognised the moment they hold them.</p></div><div class="masonry"><figure><img src="images/lalqila/khaas-gold.jpg" alt="Khaas Mehmaan gold membership card front and back" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/khaas-silver.jpg" alt="Khaas Mehmaan silver membership card front and back" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/malka-aaliya.jpg" alt="Malka Aaliya membership card front and back" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/gate-pass.jpg" alt="Lal Qila gate passes in blue and green" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/voucher.jpg" alt="Lal Qila Dinner Buffet voucher in crimson" loading="lazy" decoding="async"></figure></div></div>
+    <div class="block"><div class="section-heading"><div><div class="eyebrow">04 &nbsp; Billing and stationery</div><h2>Even the bill<br>looks the part.</h2></div><p>The smaller details, from the bill folder to the pens, carry the same border pattern and crimson, so the brand stays present through the end of the meal.</p></div><div class="masonry"><figure><img src="images/lalqila/bill-folder.jpg" alt="Lal Qila bill folder open and closed" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/bill-sheets.jpg" alt="Lal Qila bill sheets and cover" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/bill-holder.jpg" alt="Lal Qila bill holder in crimson" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/pens.jpg" alt="Two crimson Lal Qila pens" loading="lazy" decoding="async"></figure></div></div>
+    <div class="block"><div class="section-heading"><div><div class="eyebrow">05 &nbsp; Packaging</div><h2>Packaging, from<br>takeaway to gifting.</h2></div><p>From pizza boxes and takeaway trays to cake bags, velvet gift pouches and retail products, every item a guest takes home still carries the brand.</p></div><div class="masonry"><figure><img src="images/lalqila/pizza-box.jpg" alt="Lal Qila pizza boxes with the line Fit for a King" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/takeaway-box-urdu.jpg" alt="Lal Qila kraft takeaway box with Urdu lettering" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/takeaway-trays.jpg" alt="Stacked Lal Qila kraft takeaway trays with crimson band" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/takeaway-bag.jpg" alt="Lal Qila takeaway bag" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/shopping-bag.jpg" alt="Lal Qila crimson and black paper shopping bag" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/cake-bag.jpg" alt="Black Lal Qila tote with the line Share the Joy of Sweetness" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/cake-box.jpg" alt="Lal Qila cake box with arched window" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/velvet-bag.jpg" alt="Crimson Lal Qila leather drawstring pouches" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/tins.jpg" alt="Lal Qila Chicken Pulao tins" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/ketchup.jpg" alt="Lal Qila tomato ketchup bottles" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/tissue-box.jpg" alt="Lal Qila tissue box in crimson and black" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/napkin.jpg" alt="Lal Qila napkin with embroidered logo" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/stickers.jpg" alt="Round Lal Qila logo stickers in crimson and cream" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/window-sticker.jpg" alt="Lal Qila delivery timings window sticker" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/sanitizer.jpg" alt="Lal Qila hand sanitizer bottles" loading="lazy" decoding="async"></figure><figure><img src="images/lalqila/rider-bag.jpg" alt="Lal Qila delivery rider bag with arched panel" loading="lazy" decoding="async"></figure></div></div>
+    <div class="next"><a href="index.html#work" aria-label="Back to all projects"><div><span class="eyebrow">Keep exploring</span><span class="next-title">All projects</span></div><span class="next-arrow" aria-hidden="true">⟶</span></a></div>
+  </div></section>
+  <section class="contact" id="contact" aria-labelledby="contact-title"><div class="container contact-inner"><h2 id="contact-title">Got an important project?<br>Let’s make it work. <span class="star" aria-hidden="true">✦</span></h2><a class="btn" href="mailto:sannn.rzv@gmail.com">Get in touch ↗</a></div></section>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <span>© <span id="year">2026</span> Sana Rizvi</span>
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>
