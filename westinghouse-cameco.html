@@ -31,11 +31,12 @@ nav a:hover{color:var(--white)}
 .hero img{width:100%;aspect-ratio:2/1;min-height:300px;max-height:760px;object-fit:cover;object-position:50% 40%}
 .img{overflow:hidden;border:1px solid rgba(255,255,255,.08);border-radius:5px;background:#182333}
 .img img{width:100%;height:auto}
-.pair .img img{aspect-ratio:1.2/1;object-fit:cover}
+.pair .img img{aspect-ratio:1000/950;object-fit:cover}
 .audience .img img{aspect-ratio:1/1;object-fit:cover}
 .intro{background:#fff;color:var(--navy);padding:58px 0 64px}
 .intro .eyebrow{color:#a36513}
 h1{margin:12px 0 0;font:400 clamp(46px,6.4vw,96px)/.98 var(--serif);letter-spacing:-.03em;text-transform:uppercase}
+.reg{font-size:.65em;line-height:0;vertical-align:super;margin-left:.04em}.intro-copy .eyebrow{margin-bottom:12px;color:#727987}
 .subtitle{margin:14px 0 0;color:#727987;font:400 clamp(22px,2.6vw,34px)/1.15 var(--serif)}
 .intro-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;margin-top:46px}
 .facts{margin:0;display:grid;align-content:start;gap:17px}
@@ -94,6 +95,7 @@ footer{padding:20px 0}
 .footer-inner{font-size:8px;letter-spacing:.07em}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+.ai-note{margin:2px 0 0;font:400 9px/1.5 var(--sans);letter-spacing:.03em;color:var(--muted);opacity:.4}
 </style>
 </head>
 <body id="top">
@@ -108,13 +110,13 @@ footer{padding:20px 0}
 
 <main>
   <section class="hero" aria-label="Project Aurora key visual">
-    <img src="images/westinghouse-cameco/hero.jpg" alt="Project Aurora AP1000 billboard over a city highway at dusk" fetchpriority="high">
+    <img src="westinghouse-cameco/hero.jpg" alt="Project Aurora AP1000® billboard over a city highway at dusk" fetchpriority="high">
   </section>
 
   <section class="intro" aria-labelledby="project-title">
     <div class="container">
-      <div class="eyebrow">Project Aurora</div>
-      <h1 id="project-title">Westinghouse × Cameco</h1>
+      <div class="eyebrow">Westinghouse × Cameco</div>
+      <h1 id="project-title">Project Aurora</h1>
       <p class="subtitle">DOOH banners and LinkedIn programmatic ads</p>
       <div class="intro-grid">
         <dl class="facts">
@@ -124,7 +126,8 @@ footer{padding:20px 0}
           <div class="fact"><dt>Scope</dt><dd>DOOH banners · LinkedIn programmatic ads</dd></div>
         </dl>
         <div class="intro-copy">
-          <p>Project Aurora positioned the AP1000 as proven Canadian technology for Canada’s clean, reliable power needs. I led the creative direction and developed campaign assets for supply-chain partners, utilities, and the public.</p>
+          <div class="eyebrow">Project overview</div>
+          <p>Project Aurora focused on positioning Westinghouse’s AP1000<sup class="reg">®</sup> reactor technology within Canada’s evolving nuclear energy landscape. I led the creative direction and developed digital campaign assets designed to communicate a complex technical story across multiple audiences, including utilities, supply-chain partners, and the wider public.</p>
         </div>
       </div>
     </div>
@@ -136,29 +139,29 @@ footer{padding:20px 0}
       <div class="block">
         <div class="section-heading">
           <div><div class="eyebrow">01 &nbsp; The challenge</div><h2>The challenge</h2></div>
-          <p>Make a technical reactor story clear and relevant to different audiences, with a grounded Canadian energy and infrastructure feel.</p>
+          <p>Translate complex nuclear technology messaging into clear, compelling campaign visuals that resonate with Canadian audiences while maintaining a cohesive visual identity across digital platforms.</p>
         </div>
-        <figure class="wide"><div class="img"><img src="images/westinghouse-cameco/wide.jpg" alt="Canada’s most affordable reactor DOOH visual with cost comparison chart" loading="lazy" decoding="async"></div></figure>
+        <figure class="wide"><div class="img"><img src="westinghouse-cameco/wide.jpg" alt="Canada’s most affordable reactor DOOH visual with cost comparison chart" loading="lazy" decoding="async"></div></figure>
       </div>
 
       <div class="block">
         <div class="section-heading">
-          <div><div class="eyebrow">02 &nbsp; The approach</div><h2>Make the AP1000<br>the hero.</h2></div>
-          <p>The campaign centered on proven technology, Canadian capability, and readiness. One visual language carried across the creative, while the message shifted by audience.</p>
+          <div><div class="eyebrow">02 &nbsp; The approach</div><h2>Make the AP1000<sup class="reg">®</sup><br>the hero</h2></div>
+          <p>The creative direction centered on three key messages: proven technology, Canadian capability, and readiness. A cohesive visual language connected the campaign, while the messaging was tailored to each audience.</p>
         </div>
         <div class="audiences">
           <article class="audience">
-            <div class="img"><img src="images/westinghouse-cameco/supply-chain.jpg" alt="Supply chain ad: Ready to build now, AP1000 reactors build a strong economy and jobs" loading="lazy" decoding="async"></div>
+            <div class="img"><img src="westinghouse-cameco/supply-chain.jpg" alt="Supply chain ad: Ready to build now, AP1000® reactors build a strong economy and jobs" loading="lazy" decoding="async"></div>
             <h3>Supply chain</h3>
             <p>Partnership opportunities, qualification, and jobs.</p>
           </article>
           <article class="audience">
-            <div class="img"><img src="images/westinghouse-cameco/utilities.jpg" alt="Utilities ad: Built before, build again" loading="lazy" decoding="async"></div>
+            <div class="img"><img src="westinghouse-cameco/utilities.jpg" alt="Utilities ad: Built before, build again" loading="lazy" decoding="async"></div>
             <h3>Utilities</h3>
             <p>Delivery risk, schedule and cost predictability, and Canadian control.</p>
           </article>
           <article class="audience">
-            <div class="img"><img src="images/westinghouse-cameco/general-public.jpg" alt="General public ad: One’s operating, the other’s still rendering" loading="lazy" decoding="async"></div>
+            <div class="img"><img src="westinghouse-cameco/general-public.jpg" alt="General public ad: One’s operating, the other’s still rendering" loading="lazy" decoding="async"></div>
             <h3>Public</h3>
             <p>Reliable, affordable power and jobs.</p>
           </article>
@@ -167,16 +170,16 @@ footer{padding:20px 0}
 
       <div class="block">
         <div class="section-heading">
-          <div><div class="eyebrow">03 &nbsp; The work</div><h2>DOOH and<br>LinkedIn.</h2></div>
-          <p>I created DOOH banners and programmatic ads for LinkedIn, using bold messaging and clear visual hierarchy to make the AP1000 and campaign idea easy to grasp at a glance.</p>
+          <div><div class="eyebrow">03 &nbsp; The work</div><h2>DOOH and<br>LinkedIn</h2></div>
+          <p>I developed DOOH banners and LinkedIn programmatic ads, combining bold messaging, impactful imagery, and clear visual hierarchy to communicate the AP1000<sup class="reg">®</sup>’s key messages across different digital environments.</p>
         </div>
         <div class="gallery">
-          <figure class="wide"><div class="img"><img src="images/westinghouse-cameco/dooh-banner.jpg" alt="DOOH banner: Canadian owned, Canadian-built, Canadian jobs" loading="lazy" decoding="async"></div></figure>
+          <figure class="wide"><div class="img"><img src="westinghouse-cameco/dooh-banner.jpg" alt="DOOH banner: Canadian owned, Canadian-built, Canadian jobs" loading="lazy" decoding="async"></div></figure>
           <div class="pair">
-            <figure><div class="img"><img src="images/westinghouse-cameco/dooh-banner-2.jpg" alt="Display ad: Build Ontario, build what’s ready" loading="lazy" decoding="async"></div></figure>
-            <figure><div class="img"><img src="images/westinghouse-cameco/linkedin-ad.jpg" alt="LinkedIn ad: Built on record, not on paper" loading="lazy" decoding="async"></div></figure>
+            <figure><div class="img"><img src="westinghouse-cameco/dooh-banner-2.jpg" alt="Display ad: Build Ontario, build what’s ready" loading="lazy" decoding="async"></div></figure>
+            <figure><div class="img"><img src="westinghouse-cameco/linkedin-ad.jpg" alt="LinkedIn ad: Built on record, not on paper" loading="lazy" decoding="async"></div></figure>
           </div>
-          <figure class="wide"><div class="img"><img src="images/westinghouse-cameco/full-set.jpg" alt="LinkedIn ad on a phone beside a Westinghouse DOOH billboard" loading="lazy" decoding="async"></div></figure>
+          <figure class="wide"><div class="img"><img src="westinghouse-cameco/full-set.jpg" alt="LinkedIn ad on a phone beside a Westinghouse DOOH billboard" loading="lazy" decoding="async"></div></figure>
         </div>
       </div>
 
@@ -192,7 +195,7 @@ footer{padding:20px 0}
   <section class="contact" id="contact" aria-labelledby="contact-title">
     <div class="container contact-inner">
       <h2 id="contact-title">Got an important project?<br>Let’s make it work. <span class="star" aria-hidden="true">✦</span></h2>
-      <a class="btn" href="mailto:sannn.rzv@gmail.com">Get in touch ↗</a>
+      <a class="btn" href="mailto:sannn.rzv@gmail.com">Get in touch</a>
     </div>
   </section>
 </main>
@@ -202,6 +205,7 @@ footer{padding:20px 0}
     <span>© <span id="year">2026</span> Sana Rizvi</span>
     <a href="#top">Back to top ↑</a>
   </div>
+  <div class="container"><p class="ai-note">Mockup scenes are AI-generated. All design work is my own.</p></div>
 </footer>
 <script>document.getElementById("year").textContent=new Date().getFullYear();</script>
 </body>

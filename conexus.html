@@ -104,6 +104,13 @@ footer{padding:20px 0}
 .masonry.one{columns:1}.masonry.one img{max-height:none}
 @media(max-width:600px){.section-heading.story{grid-template-columns:1fr}}
 .hero img{aspect-ratio:2/1;object-position:50% 45%}
+.aligned{display:flex;gap:18px;align-items:flex-start}
+.aligned .col{display:flex;flex-direction:column;gap:18px;min-width:0}
+.aligned figure{margin:0}
+.aligned img{width:100%;height:auto;box-sizing:border-box;object-fit:cover;border-radius:5px;border:1px solid rgba(255,255,255,.08);display:block}
+@media(max-width:600px){.aligned,.aligned .col{display:block}.aligned .col{margin-bottom:12px}.aligned figure{margin-bottom:12px}}
+@media(min-width:601px){.hero img{aspect-ratio:1905/826;max-height:none;object-position:50% 50%}}
+.ai-note{margin:2px 0 0;font:400 9px/1.5 var(--sans);letter-spacing:.03em;color:var(--muted);opacity:.4}
 </style>
 </head>
 <body id="top">
@@ -117,7 +124,7 @@ footer{padding:20px 0}
 </header>
 
 <main>
-  <section class="hero" aria-label="Conexus key visual"><img src="images/conexus/hero.jpg" alt="Conexus website shown on two laptops" fetchpriority="high"></section>
+  <section class="hero" aria-label="Conexus key visual"><img src="conexus/hero.jpg" alt="Conexus booth and roll-up banners with a phone showing the Conexus website" fetchpriority="high"></section>
   <section class="intro" aria-labelledby="project-title"><div class="container">
     <div class="eyebrow">Website and event design</div>
     <h1 id="project-title">Conexus</h1>
@@ -132,11 +139,11 @@ footer{padding:20px 0}
       <div class="intro-copy"><p>After Conexus’s rebrand, I carried the new identity into its two most visible touchpoints: the website and its first post-rebrand event.</p></div>
     </div></div></section>
   <section class="showcase"><div class="container">
-    <div class="block"><div class="section-heading story"><div><div class="eyebrow">01 &nbsp; The website</div><h2>Designing inside<br>the limits.</h2></div><div class="copy"><p>Security requirements limited the hosting options, which put the site on HostPapa’s builder, a platform with little design flexibility. The brief still called for a polished, sophisticated site.</p><p>I couldn’t control every pixel, so I let the platform’s limits drive the design. I chose layouts and visual treatments that hold up inside those constraints, so the site looks intentional instead of templated.</p><p>I designed, built and published the site on HostPapa, with the experience and aesthetics as the priority. The client was happy with the result, and the site is still live.</p></div></div><div class="masonry"><figure><img src="images/conexus/home-page.jpg" alt="Conexus website home page design" loading="lazy" decoding="async"></figure><figure><img src="images/conexus/about-page.jpg" alt="Conexus website about page design" loading="lazy" decoding="async"></figure></div></div>
-    <div class="block"><div class="section-heading story"><div><div class="eyebrow">02 &nbsp; The event</div><h2>Charge up for<br>a cleaner future.</h2></div><div class="copy"><p>As the first event after the rebrand, it had to introduce Conexus and its role in clean energy, and give attendees an easy way to take part.</p><p>I focused on simple, hands-on activities that turn the clean-energy message into something attendees help create.</p><p>A pin-marking map activity and a “Charge Up for a Cleaner Future” standee, where attendees added names or thoughts on sticky notes to build a collective message about the future of clean energy.</p></div></div><div class="masonry"><figure><img src="images/conexus/event-booth.jpg" alt="Conexus event booth with backdrop, roll-up and table" loading="lazy" decoding="async"></figure><figure><img src="images/conexus/roll-ups.jpg" alt="Two Conexus roll-up banners" loading="lazy" decoding="async"></figure><figure><img src="images/conexus/backdrop.jpg" alt="Conexus Four Decades of Excellence Through Collaboration backdrop" loading="lazy" decoding="async"></figure><figure><img src="images/conexus/roll-up-map.jpg" alt="Conexus roll-up banner with world map" loading="lazy" decoding="async"></figure><figure><img src="images/conexus/roll-up-nodes.jpg" alt="Conexus roll-up banner with node pattern" loading="lazy" decoding="async"></figure></div></div>
+    <div class="block"><div class="section-heading story"><div><div class="eyebrow">01 &nbsp; The website</div><h2>Designing inside<br>the limits</h2></div><div class="copy"><p>Security requirements narrowed the hosting options, making HostPapa’s website builder the practical choice for the project.</p><p>I designed and built the website around the platform’s constraints, using considered layouts, clear hierarchy and consistent visual elements to create a cohesive digital experience.</p><p>The result was a polished, functional website that brought the Conexus identity online and remains live today.</p></div></div><div class="masonry one"><figure><img src="conexus/website.jpg" alt="Conexus website shown across laptop, phone and page mockups" loading="lazy" decoding="async"></figure></div></div>
+    <div class="block"><div class="section-heading story"><div><div class="eyebrow">02 &nbsp; The event</div><h2>Charge up for<br>a cleaner future</h2></div><div class="copy"><p>For Conexus’s first event following its rebrand, the goal was to introduce the refreshed identity and make its clean-energy message tangible.</p><p>I developed interactive event concepts that encouraged attendees to participate, contribute and engage with the brand.</p><p>From a collaborative pin-map activity to the “Charge Up for a Cleaner Future” standee, each touchpoint was designed to turn a complex industry message into an approachable, shared experience.</p></div></div><div class="aligned"><div class="col" style="flex:0 0 calc(0.39425*(100% - 18px) + -8.8706px)"><figure><img style="aspect-ratio:1600/900" src="conexus/event-booth.jpg" alt="Conexus event booth with backdrop, roll-up and table" loading="lazy" decoding="async"></figure><figure><img style="aspect-ratio:1536/1024" src="conexus/roll-ups.jpg" alt="Two Conexus roll-up banners" loading="lazy" decoding="async"></figure></div><div class="col" style="flex:1 1 0"><figure><img style="aspect-ratio:1500/1200" src="conexus/backdrop.jpg" alt="Conexus Four Decades of Excellence Through Collaboration backdrop" loading="lazy" decoding="async"></figure></div></div></div>
     <div class="next"><a href="index.html#work" aria-label="Back to all projects"><div><span class="eyebrow">Keep exploring</span><span class="next-title">All projects</span></div><span class="next-arrow" aria-hidden="true">⟶</span></a></div>
   </div></section>
-  <section class="contact" id="contact" aria-labelledby="contact-title"><div class="container contact-inner"><h2 id="contact-title">Got an important project?<br>Let’s make it work. <span class="star" aria-hidden="true">✦</span></h2><a class="btn" href="mailto:sannn.rzv@gmail.com">Get in touch ↗</a></div></section>
+  <section class="contact" id="contact" aria-labelledby="contact-title"><div class="container contact-inner"><h2 id="contact-title">Got an important project?<br>Let’s make it work. <span class="star" aria-hidden="true">✦</span></h2><a class="btn" href="mailto:sannn.rzv@gmail.com">Get in touch</a></div></section>
 </main>
 
 <footer>
@@ -144,6 +151,7 @@ footer{padding:20px 0}
     <span>© <span id="year">2026</span> Sana Rizvi</span>
     <a href="#top">Back to top ↑</a>
   </div>
+  <div class="container"><p class="ai-note">Mockup scenes are AI-generated. All design work is my own.</p></div>
 </footer>
 <script>document.getElementById("year").textContent=new Date().getFullYear();</script>
 </body>
